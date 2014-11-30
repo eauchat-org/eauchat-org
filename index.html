@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TITLE IS CHANGED BY JS</title>
+	</head>
+	<body>
+
+<!-- STYLES AND LIBRARIES---------------------------------------------------->
+		<div id= "loaded_scripts"> <!----------------------- loading libraries ----------------------->
+			<script src="___LIBRARIES/jquery-2.1.0.min.js"></script>
+			<script type="text/javascript" src="___LIBRARIES_loader.js"></script>
+			<script type="text/javascript"> loadScripts() </script>
+			<!-- just choose the libraries you need here ^^^^^^^^^^^^^^ -->
+		</div>
+<!-- STYLES AND LIBRARIES END------------------------------------------------>
+
+<!-- HTML CONTENT------------------------------------------------------------>
+		<div id="ALL">
+		</div>
+<!-- HTML CONTENT END-------------------------------------------------------->
+
+<!-- LOAD JSs---------------------------------------------------------------->
+		<script>
+			//test browser compatibility
+			if (nameOfBrowserYouUse == "Opera") {alert("You are using Opera. This website has been developed with Firefox. \nAs I'm developing on my free time, and not being a webdeveloper I haven't tested it with Opera and I'm not sure it'll work fine with it.\nConsidering using Firefox for better usage." )}
+			else if (nameOfBrowserYouUse != "Firefox" && nameOfBrowserYouUse != "Chrome") {
+				$("body").append('<div/ id="browserID">'+ '<strong style="color: red">Attention</strong>')
+				$("#browserID").append(
+					"<div/>"+"It seem that you are using <strong style='color: cyan'>"+ nameOfBrowserYouUse + "</strong> to browse this site."
+					+"<div/>"+"This website has been developed with <a class='browserIDfirefox' href='https://www.mozilla.org'>Firefox</a>. As I'm developing on my free time, and not being a webdeveloper it'll probably not work fine with it."
+					+"<div/>"+"Please consider using  <a class='browserIDfirefox' href='https://www.mozilla.org'>Firefox</a>, it's a free browser that is currently one of the most respectful for your private life."
+				);
+			};
+
+			//load scripts
+			loadScripts(current_JSandCSS);
+			
+			//define page title (define it in JS, if not, default is HTML name)
+			if (typeof HTML_title == "undefined") var HTML_title = currentDocumentName.replace(".html", "").replace("HTML_", "");
+			$("title").html( HTML_title );
+			
+			//define logo by default
+			if (typeof HTML_logo == "undefined") var HTML_logo = "datas/_pagesLogos/"+ currentDocumentName.replace("html", "png").replace("HTML_", "");
+
+			$("head").append('<link rel="icon" type="image/ico" href="'+ HTML_logo +'"></link>');
+			$("head").append('<link rel="shortcut icon" href="'+ HTML_logo +'"></link>');
+		</script>
+<!-- LOAD JSs END------------------------------------------------------------>
+
+	</body>
+</html>
