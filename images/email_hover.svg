@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   id="svg4817"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="email.svg"
+   inkscape:export-filename="/Users/Zexclu_zif/Documents/Zexclu_zif/8___Web/2014-08-31 Eauchat/datas/Services_LOGOS--.png"
+   inkscape:export-xdpi="9"
+   inkscape:export-ydpi="9">
+  <defs
+     id="defs4819">
+    <clipPath
+       id="clipPath2415"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="240"
+         x="725"
+         height="175"
+         width="75"
+         id="rect2417"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="clipPath3509"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="240"
+         x="725"
+         height="175"
+         width="75"
+         id="rect3511"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-639.41132"
+     inkscape:cy="542.45717"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="372.05px"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata4822">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Mails"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-52.361892)"
+     style="display:inline">
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path5085"
+       d="m 125,269.43015 0,565.86349 750,0 0,-565.86348 z m 88.7868,52.31576 576.45789,0 -265.37595,267.11046 -0.0937,0 c -10.47904,10.56175 -36.44544,10.99832 -47.53423,-0.0938 l -0.0469,-0.0468 z m -36.42415,37.54924 189.57434,192.15264 -189.57434,193.74647 z m 645.32157,4.0315 0,381.77385 -188.02737,-192.52765 z m -419.0418,225.34221 36.37726,36.84604 0.0469,0.0468 c 33.54264,33.80187 88.64746,33.62541 121.83575,0.23439 0.0177,-0.018 0.076,-0.076 0.0937,-0.0937 l 35.76786,-36.00225 188.68366,193.23082 -572.8483,0 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffc0cb;fill-opacity:1;stroke:none;stroke-width:30.65500069000000138;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+  </g>
+</svg>
