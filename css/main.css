@@ -8,11 +8,40 @@ ul {
   padding: 0;
 }
 
-ul.apps {
-}
-
-li.app {
+ul.apps li {
   display: inline-block;
   border: 1px solid white;
-  padding: 50px 10px 10px;
+  border-top: none;
+  padding: 80px 5px 5px;
+  margin: 0 5px;
+}
+
+ul.apps li a {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+a.icon-emails {
+  background-image: url('/images/email.png');
+}
+
+a.icon-call {
+  background-image: url('/images/call.png');
+}
+
+a.icon-chat {
+  background-image: url('/images/chat.png');
+}
+
+a.icon-cloud {
+  background-image: url('/images/cloud.png');
+}
+
+a.icon-media {
+  background-image: url('/images/media.png');
+}
+
+a.icon-pads {
+  background-image: url('/images/pads.png');
 }
