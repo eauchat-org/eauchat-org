@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #cde;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul.apps {
+}
+
+li.app {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 50px 10px 10px;
+}
