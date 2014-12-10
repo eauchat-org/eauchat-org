@@ -3,12 +3,16 @@ body {
   background-color: #cde;
 }
 
-ul.apps {
-  list-style-type: none;
+div#apps {
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
   margin: 0 auto;
+}
+
+ul.apps {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -26,8 +30,10 @@ ul.apps li a {
   height: 100px;
   width: 100px;
   border-radius: 50px;
+  background-repeat: no-repeat;
   transition: background-color 0.5s ease-in-out;
 }
+ul.apps li a:hover { background-color: rgb(167, 202, 238); }
 
 ul.apps li a::before {
   content: "";
@@ -38,11 +44,10 @@ ul.apps li a::before {
   bottom: 0;
   left: 0;
   right: 0;
+  background-repeat: no-repeat;
   transition: opacity 0.2s ease-in-out;
   opacity: 1;
 }
-
-ul.apps li a:hover { background-color: rgb(167, 202, 238); }
 ul.apps li a:hover:before { opacity: 0; }
 
 a.icon-emails { background-image: url('/images/email-hover.png'); }
@@ -62,3 +67,16 @@ a.icon-media::before { background-image: url('/images/media.png'); }
 
 a.icon-pads { background-image: url('/images/pads-hover.png'); }
 a.icon-pads::before { background-image: url('/images/pads.png'); }
+
+div#descriptions div {
+  position: absolute;
+  margin-top: -10000px;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+div#descriptions div.active {
+  margin-top: 50px;
+  opacity: 1;
+}
