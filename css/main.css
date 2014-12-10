@@ -4,6 +4,7 @@ body {
 }
 
 ul.apps {
+  list-style-type: none;
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
@@ -12,6 +13,7 @@ ul.apps {
 }
 
 ul.apps li {
+  position: relative;
   display: inline-block;
   border: 1px solid white;
   border-top: none;
@@ -23,28 +25,40 @@ ul.apps li a {
   display: inline-block;
   height: 100px;
   width: 100px;
+  border-radius: 50px;
+  transition: background-color 0.5s ease-in-out;
 }
 
-a.icon-emails {
-  background-image: url('/images/email.png');
+ul.apps li a::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  margin: 80px 5px 5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
 }
 
-a.icon-call {
-  background-image: url('/images/call.png');
-}
+ul.apps li a:hover { background-color: rgb(167, 202, 238); }
+ul.apps li a:hover:before { opacity: 0; }
 
-a.icon-chat {
-  background-image: url('/images/chat.png');
-}
+a.icon-emails { background-image: url('/images/email-hover.png'); }
+a.icon-emails::before { background-image: url('/images/email.png'); }
 
-a.icon-cloud {
-  background-image: url('/images/cloud.png');
-}
+a.icon-call { background-image: url('/images/call-hover.png'); }
+a.icon-call::before { background-image: url('/images/call.png'); }
 
-a.icon-media {
-  background-image: url('/images/media.png');
-}
+a.icon-chat { background-image: url('/images/chat-hover.png'); }
+a.icon-chat::before { background-image: url('/images/chat.png'); }
 
-a.icon-pads {
-  background-image: url('/images/pads.png');
-}
+a.icon-cloud { background-image: url('/images/cloud-hover.png'); }
+a.icon-cloud::before { background-image: url('/images/cloud.png'); }
+
+a.icon-media { background-image: url('/images/media-hover.png'); }
+a.icon-media::before { background-image: url('/images/media.png'); }
+
+a.icon-pads { background-image: url('/images/pads-hover.png'); }
+a.icon-pads::before { background-image: url('/images/pads.png'); }
