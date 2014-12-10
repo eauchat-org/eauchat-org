@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   id="svg4817"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="cloud.svg"
+   inkscape:export-filename="/Users/Zexclu_zif/Documents/Zexclu_zif/8___Web/2014-08-31 Eauchat/datas/Services_LOGOS--.png"
+   inkscape:export-xdpi="9"
+   inkscape:export-ydpi="9">
+  <defs
+     id="defs4819">
+    <clipPath
+       id="clipPath2415"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="240"
+         x="725"
+         height="175"
+         width="75"
+         id="rect2417"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="clipPath3509"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="240"
+         x="725"
+         height="175"
+         width="75"
+         id="rect3511"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-132.26845"
+     inkscape:cy="542.45717"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     width="372.05px"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata4822">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Cloud"
+     style="display:inline">
+    <path
+       d="m 588.15068,295.06983 c 115.6616,-8.26585 163.2187,79.36504 174.31197,155.01025 2.77458,-0.24687 5.56678,-0.40657 8.40145,-0.40657 54.1553,0 98.25839,45.98331 99.46512,103.07862 9.04745,-5.05374 19.44222,-7.9498 30.53551,-7.9498 34.66539,0 62.83181,28.16622 62.83181,62.83179 0,34.66593 -35.46962,72.67477 -70.13539,72.67477 -293.79935,0.94613 -489.00425,3.87835 -781.78589,1.96813 -39.417708,0 -75.471792,-18.69255 -75.471792,-58.11027 0,-39.4181 31.996363,-71.41462 71.414452,-71.41462 10.27682,0 20.03168,2.18438 28.86362,6.09816 16.00181,-26.4971 45.04476,-44.22181 78.23542,-44.22181 13.06883,0 25.52279,2.77403 36.76854,7.72407 6.26416,-40.21786 29.06417,-97.41165 86.88057,-109.62687 57.81639,-12.21523 112.27574,21.68172 112.27574,21.68172 0,0 21.74727,-131.07173 137.40887,-139.33757 z"
+       id="path4319"
+       stroke-miterlimit="4"
+       inkscape:connector-curvature="0"
+       style="fill:#ffc0cb;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       sodipodi:nodetypes="zcscssccsscsczcz" />
+  </g>
+</svg>
