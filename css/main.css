@@ -3,8 +3,11 @@ body {
   background-color: #cde;
 }
 
-ul {
-  margin: 0;
+ul.apps {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -17,7 +20,7 @@ ul.apps li {
 }
 
 ul.apps li a {
-  display: block;
+  display: inline-block;
   height: 100px;
   width: 100px;
 }
