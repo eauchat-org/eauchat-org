@@ -93,27 +93,10 @@ div#footer svg {
   bottom: 0;
 }
 
-/*div#side {*/
-  /*overflow: hidden;*/
-/*}*/
-
-/*div#side svg {*/
-  /*position: absolute;*/
-  /*left: 0;*/
-  /*[>height: 100%;<]*/
-  /*width: 100%;*/
-/*}*/
-
-/*div#sidemargin {*/
-  /*display: inline-block;*/
-  /*width: 1.17%;*/
-  /*height: 1000px;*/
-  /*overflow: hidden;*/
-  /*[>float: left;<]*/
-  /*background-color: black;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
-/*}*/
+div#side svg {
+  position: fixed;
+  width: 100%;
+}
 
 .twinkle {
   fill: #08f;

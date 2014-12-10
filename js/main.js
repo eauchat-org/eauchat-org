@@ -42,14 +42,13 @@ $(document).ready(function() {
     footer.get(0).setAttribute('viewBox', '0 0 ' + width + ' ' + height);
     footer.find('.twinkle').removeAttr('style');
   });
-  //$('#side').load('/images/home-side.svg', function() {
-    //var side = $('#side svg'),
-        //width = side.attr('width'),
-        //height = side.attr('height');
-    //side.removeAttr('width');
-    //side.removeAttr('height');
-    //side.get(0).setAttribute('viewBox', '0 0 ' + width + ' ' + (+height));
-    ////side.get(0).setAttribute('preserveAspectRatio', 'xMaxYMax');
-    //side.find('.twinkle').removeAttr('style');
-  //});
+  $('#side').load('/images/home-side.svg', function() {
+    var side = $('#side svg'),
+        width = side.attr('width'),
+        height = side.attr('height');
+    side.removeAttr('width');
+    side.removeAttr('height');
+    side.get(0).setAttribute('viewBox', '0 0 ' + width + ' ' + (10000 + +height));
+    side.find('.twinkle').removeAttr('style');
+  });
 });
