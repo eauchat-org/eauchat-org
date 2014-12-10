@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #cde;
+  font-family: 'Lato-Light', sans-serif;
 }
 
 div#apps {
@@ -79,4 +80,16 @@ div#descriptions div {
 div#descriptions div.active {
   margin-top: 50px;
   opacity: 1;
+}
+
+
+/*
+ * Fonts
+ */
+
+@font-face {
+  font-family: 'Lato-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato-Light'), url(/fonts/Lato/Lato-Light.ttf);
 }
