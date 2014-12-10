@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #cde;
   font-family: 'Lato-Light', sans-serif;
+  color: #08f;
 }
 
 div#apps {
@@ -80,6 +81,48 @@ div#descriptions div {
 div#descriptions div.active {
   margin-top: 50px;
   opacity: 1;
+}
+
+
+/*
+ * SVG formatting
+ */
+
+div#footer svg {
+  position: absolute;
+  bottom: 0;
+}
+
+/*div#side {*/
+  /*overflow: hidden;*/
+/*}*/
+
+/*div#side svg {*/
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*[>height: 100%;<]*/
+  /*width: 100%;*/
+/*}*/
+
+/*div#sidemargin {*/
+  /*display: inline-block;*/
+  /*width: 1.17%;*/
+  /*height: 1000px;*/
+  /*overflow: hidden;*/
+  /*[>float: left;<]*/
+  /*background-color: black;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+/*}*/
+
+.twinkle {
+  fill: #08f;
+  transition: fill 2s ease-in-out;
+}
+
+.twinkle:hover {
+  fill: #ffc0cb;
+  transition: fill 0.2s ease-in-out;
 }
 
 
