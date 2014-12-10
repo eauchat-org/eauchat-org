@@ -5,6 +5,14 @@ body {
   color: #08f;
 }
 
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 div#apps {
   width: -moz-fit-content;
   width: -webkit-fit-content;
@@ -91,15 +99,18 @@ div#descriptions div.active {
 div#footer svg {
   position: absolute;
   bottom: 0;
+  pointer-events: none;
 }
 
 div#side svg {
   position: fixed;
+  pointer-events: none;
 }
 
 .twinkle {
   fill: #08f;
   transition: fill 2s ease-in-out;
+  pointer-events: auto;
 }
 
 .twinkle:hover {
