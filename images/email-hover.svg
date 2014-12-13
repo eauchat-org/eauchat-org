@@ -14,8 +14,8 @@
    id="svg4817"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="email.svg"
-   inkscape:export-filename="/Users/Zexclu_zif/Documents/Zexclu_zif/8___Web/2014-08-31 Eauchat/datas/Services_LOGOS--.png"
+   sodipodi:docname="email-hover.svg"
+   inkscape:export-filename="/home/lcc/Documents/EAUCHAT/images/email-hover.png"
    inkscape:export-xdpi="9"
    inkscape:export-ydpi="9">
   <defs
@@ -51,7 +51,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="-639.41132"
+     inkscape:cx="77.796997"
      inkscape:cy="542.45717"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -89,6 +89,6 @@
        inkscape:connector-curvature="0"
        id="path5085"
        d="m 125,269.43015 0,565.86349 750,0 0,-565.86348 z m 88.7868,52.31576 576.45789,0 -265.37595,267.11046 -0.0937,0 c -10.47904,10.56175 -36.44544,10.99832 -47.53423,-0.0938 l -0.0469,-0.0468 z m -36.42415,37.54924 189.57434,192.15264 -189.57434,193.74647 z m 645.32157,4.0315 0,381.77385 -188.02737,-192.52765 z m -419.0418,225.34221 36.37726,36.84604 0.0469,0.0468 c 33.54264,33.80187 88.64746,33.62541 121.83575,0.23439 0.0177,-0.018 0.076,-0.076 0.0937,-0.0937 l 35.76786,-36.00225 188.68366,193.23082 -572.8483,0 z"
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffc0cb;fill-opacity:1;stroke:none;stroke-width:30.65500069000000138;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffc0ff;fill-opacity:1;stroke:none;stroke-width:30.65500069000000138;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
   </g>
 </svg>

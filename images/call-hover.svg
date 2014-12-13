@@ -14,8 +14,8 @@
    id="svg4817"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="call.svg"
-   inkscape:export-filename="/Users/Zexclu_zif/Documents/Zexclu_zif/8___Web/2014-08-31 Eauchat/datas/Services_LOGOS--.png"
+   sodipodi:docname="call-hover.svg"
+   inkscape:export-filename="/home/lcc/Documents/EAUCHAT/images/call-hover.png"
    inkscape:export-xdpi="9"
    inkscape:export-ydpi="9">
   <defs
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-162.61931"
-     inkscape:cy="542.45717"
+     inkscape:zoom="0.862"
+     inkscape:cx="500"
+     inkscape:cy="865.70599"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -86,10 +86,10 @@
     <g
        id="g22384"
        transform="matrix(1.1888713,-1.1888713,1.1888713,1.1888713,2839.6682,4291.8566)"
-       style="fill:#ffc0cb;stroke:#00ffff;stroke-opacity:1;display:inline;enable-background:new;fill-opacity:1">
+       style="fill:#ffc0ff;stroke:#00ffff;stroke-opacity:1;display:inline;enable-background:new;fill-opacity:1">
       <path
          id="path22390"
-         style="fill:#ffc0cb;stroke:none;fill-opacity:1"
+         style="fill:#ffc0ff;stroke:none;fill-opacity:1"
          d="m 640.35437,-2681.2678 c 8.625,0 14.811,-7.027 14.811,-14.902 l 0.062,-0.062 c 0,0 -0.062,-107.0001 -0.062,-107.0631 0,-8.25 -6.686,-14.754 -14.811,-14.754 l -37.799,0 0,136.7811 c 0,0 37.707,0.058 37.738,0.027 l 0.061,-0.027 z m 0,339 c 8.625,0 14.811,-7.027 14.811,-14.902 l 0.062,-0.062 c 0,0 -0.062,-104 -0.062,-104.063 0,-8.25 -6.686,-14.754 -14.811,-14.754 l -37.799,0 0,133.781 c 0,0 37.707,0.058 37.738,0.027 l 0.061,-0.027 z m -48.246,-475.7811 c -22.379,2.504 -103.754,39.6981 -106.129,231.4791 -2.5,202.025 83.75,244.525 106.37,244.067 l 0,-133.436 c -18.62,0 -22.366,-20.275 -26.62,-62.106 -2.814,-27.679 -3.634,-61.942 0,-96 2.552,-23.897 7,-47.223 26.5,-47.223 l -0.121,-136.7811 z"
          inkscape:connector-curvature="0" />
     </g>

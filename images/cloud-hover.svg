@@ -14,8 +14,8 @@
    id="svg4817"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="cloud.svg"
-   inkscape:export-filename="/Users/Zexclu_zif/Documents/Zexclu_zif/8___Web/2014-08-31 Eauchat/datas/Services_LOGOS--.png"
+   sodipodi:docname="cloud-hover.svg"
+   inkscape:export-filename="/home/lcc/Documents/EAUCHAT/images/cloud-hover.png"
    inkscape:export-xdpi="9"
    inkscape:export-ydpi="9">
   <defs
@@ -51,7 +51,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-132.26845"
+     inkscape:cx="-539.41131"
      inkscape:cy="542.45717"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
@@ -88,7 +88,7 @@
        id="path4319"
        stroke-miterlimit="4"
        inkscape:connector-curvature="0"
-       style="fill:#ffc0cb;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       style="fill:#ffc0ff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
        sodipodi:nodetypes="zcscssccsscsczcz" />
   </g>
 </svg>
