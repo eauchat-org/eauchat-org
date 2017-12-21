@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
@@ -7,63 +8,102 @@
     <meta name="description" content="">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
+    <!-- favicon -->
     <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- <link rel="shortcut icon" href="images/favicon.png"></link> -->
+
+    <!-- icomoon icons -->
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
 
     <!--<link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/main.css">
     <!--<script src="js/vendor/modernizr-2.8.3.min.js"></script>-->
   </head>
 
+
   <body>
     <div id="container">
+
+
+      <!-- - - - - - - - - - - - - - - - - - - - - - CATS - - - - - - - - - - - - - - - - - - - - - -->
       <div id="cats">
         <div id="side"></div>
         <div id="footer"></div>
       </div>
-      <div id="admin"></div>
+
+
+      <!-- - - - - - - - - - - - - - - - - - - - - - APPS - - - - - - - - - - - - - - - - - - - - - -->
       <div id="apps">
+        <!-- apps icons -->
         <ul class="apps">
-          <li> <a data-app="emails" class="icon-emails" href="#"></a> </li>
+          <li> <a data-app="emails" class="icon-envelope smaller" href="#"></a> </li>
           <li> <a data-app="call" class="icon-call" href="#"></a> </li>
           <li> <a data-app="chat" class="icon-chat" href="#"></a> </li>
           <li> <a data-app="cloud" class="icon-cloud" href="#"></a> </li>
-          <li> <a data-app="media" class="icon-media" href="#"></a> </li>
+          <li> <a data-app="media" class="icon-video smaller" href="#"></a> </li>
           <li> <a data-app="pads" class="icon-pads" href="#"></a> </li>
         </ul>
+
+        <!-- apps descriptions -->
         <div id="descriptions">
           <div data-description="emails">
             <h1>Emails</h1>
-            <p>Create or have a look at your emails.</p>
+            <p>create or have a look at your emails</p>
           </div>
           <div data-description="call">
             <h1>Call</h1>
-            <p>Call someone via eauchat.</p>
+            <p>call someone via eauchat</p>
           </div>
           <div data-description="chat">
             <h1>Chat</h1>
           </div>
           <div data-description="cloud">
             <h1>Cloud</h1>
-            <p>Check your files, upload new stuff.</p>
+            <p>check your files, upload new stuff</p>
           </div>
           <div data-description="media">
             <h1>Media</h1>
-            <p>Browse or share videos, pictures, and more fun.</p>
+            <p>browse or share videos, pictures, and more fun</p>
           </div>
           <div data-description="pads">
             <h1>Pads</h1>
-            <p>Throw-away collaborative editing.</p>
+            <p>throw-away collaborative editing</p>
+          </div>
+          <div data-description="perso">
+            <h1>Children sites :)</h1>
+            <p>go to some eauchat personal pages</p>
           </div>
         </div>
-      </div>
-      <div id="settings">
-        <a data-app="settings" class="icon-settings" href="#"></a>
-      </div>
-    </div>
 
+        <!-- pages -->
+        <div id="pages">
+          what do you want to open?:
+          <a href="#">sl</a>
+          <a href="#">chateau</a>
+        </div>
+
+        <!-- hello :) -->
+        <div id="hello" class="hidden">hello :)<br><span>where do you wanna go?</span></div>
+
+      </div>
+
+
+      <!-- - - - - - - - - - - - - - - - - - - - - SETTINGS - - - - - - - - - - - - - - - - - - - - -->
+      <div id="settings">
+        <a data-app="settings" class="icon-settings2" href="#"></a>
+      </div>
+
+
+      <!--
+        — ADMIN PAGE HREF IS SET IN SVGS
+        — PERSO IS SET IN JS
+      -->
+
+
+    </div>
     <!-- Scripts -->
-    <script type="text/javascript" src="/js/lib/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="js/lib/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
